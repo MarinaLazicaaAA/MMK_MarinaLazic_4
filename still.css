@@ -1,0 +1,21 @@
+@charset "utf-8";
+/* css document */
+<style>
+    /* Stilizacija gornje trake */
+    .top-bar {
+        background-color: #333; /* Tamna pozadina */
+        color: white;          /* Bijela boja teksta */
+        padding: 10px 20px;    /* Unutarnji razmak */
+        text-align: center;     /* Centriran tekst */
+        font-family: Arial, sans-serif;
+        position: fixed;       /* Fiksna pozicija */
+        top: 0;                /* Pri vrhu stranice */
+        width: 100%;           /* Proteže se kroz cijelu širinu */
+        z-index: 1000;         /* Prikazuje se iznad drugih elemenata */
+    }
+
+    /* Dodajemo margine za ostatak sadržaja da ne prekriva traku */
+    body {
+        margin-top: 50px;      /* Prilagođavanje razmaka ispod trake */
+    }
+</style>
